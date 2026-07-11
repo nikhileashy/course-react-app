@@ -9,7 +9,7 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          {/* <Route index element={<AddEmployee />} /> */}
+          <Route index element={<ViewCourses />} />
           <Route path="add" element={<AddCourse />} />
           <Route path="view" element={<ViewCourses />} />
           {/* <Route path="delete" element={<DeleteEmployee />} /> */}
